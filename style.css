@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(15, 15, 15);
+}
+.navbar{
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    font-size: 18px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bg-img::before{
+    content: "";
+    background: url('./roll4.jpg') no-repeat center center/cover;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+.home{
+    text-align: center;
+    height: 100%;
+}
+.home h4{
+    color: orange;
+    font-weight: bold;
+    opacity: 0.9;
+    font-family: 'Patrick Hand', cursive;
+}
+.arrow a{ 
+    color: 	#FFD700;
+    font-size: 70px;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.home img{
+    height: 350px;
+    width: 370px;
+    margin-top: 50px;
+    opacity: 0.9;
+}
+.container-menu{
+    width: 100%;
+    text-align: center;
+}
+.container-menu h5{
+    font-size: 23px;
+    font-weight: bold;
+}
+.table-veg{
+    width: 100%;
+    background: url('./roll8.jpg') no-repeat center center/cover;
+    color: #FFD700;
+    opacity: 0.9;
+}
+.table-nonveg{
+    width: 100%;
+    background: url('./roll1.jpg') no-repeat center center/cover;
+    color: #FFD700;
+    opacity: 0.9;
+}
+.highlight{
+    font-size: 21px;
+    font-weight: bold;
+    color: orange;
+}
+table tr{
+    font-weight: bold;
+}
+#veg{
+   color: white;
+   padding: 10px;
+   color: rgb(2, 185, 2);
+   font-family: 'Patrick Hand', cursive;
+}
+#veg img{
+    height: 20px;
+    width: 20px;
+}
+#non-veg{
+    color: white;
+    padding: 10px;
+    color: rgba(255, 0, 0, 0.87);
+    font-family: 'Patrick Hand', cursive;
+}
+#non-veg img{
+    height: 20px;
+    width: 20px;
+}
+.menu{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Titillium Web', sans-serif;
+}
+/* start about */
+.container{
+    margin-top: 10px;
+    text-align: center;
+    color: azure;
+    font-family: 'Open Sans', sans-serif;
+}
+.container h4{
+    font-size: 22px;
+}
+.container img{
+    height: 90px;
+    width: 90px;
+}
+.about-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.about-pmt{
+    margin: 5px 25px;
+}
+.about-pmt img{
+    height: 100px;
+    width: 100px;
+}
+.about-pmt p{
+    color: greenyellow;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 23px;
+}
+.container-slider{
+    height: 130px;
+    width: 130px;
+}
+.container-slider img{
+    height: 130px;
+    width: 130px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+/* footer */
+.footer{
+    margin-top: 25px;
+    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.footer h4{
+    font-family: 'Open Sans', sans-serif;
+}
+.b-top{
+    position: fixed;
+    bottom: 25px;
+    right: 24px;
+}
+.b-top a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+/* responsive */
+@media only screen and (max-width:700px){
+    .home img{
+        height: 250px;
+        width: 270px;
+    }
+    .arrow a{ 
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:450px){
+    .home img{
+        height: 200px;
+        width: 220px;
+    }
+    .home h4{
+        margin-top: 40px;
+    }
+    .highlight{
+        font-size: 18px;
+    }
+}
+
