@@ -27,6 +27,7 @@ body{
 }
 .home h4{
     color: orange;
+    text-shadow: 2px 2px black;
     font-weight: bold;
     opacity: 0.9;
     font-family: 'Patrick Hand', cursive;
@@ -56,12 +57,14 @@ body{
     background: url('./roll8.jpg') no-repeat center center/cover;
     color: #FFD700;
     opacity: 0.9;
+    text-shadow: 1.5px 1.5px black;
 }
 .table-nonveg{
     width: 100%;
     background: url('./roll1.jpg') no-repeat center center/cover;
     color: #FFD700;
     opacity: 0.9;
+    text-shadow: 1.5px 1.5px black;
 }
 .highlight{
     font-size: 21px;
