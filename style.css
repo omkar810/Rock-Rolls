@@ -27,7 +27,7 @@ body{
 }
 .home h4{
     color: orange;
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 3px black;
     font-weight: bold;
     opacity: 0.9;
     font-family: 'Patrick Hand', cursive;
@@ -57,14 +57,14 @@ body{
     background: url('./roll8.jpg') no-repeat center center/cover;
     color: #FFD700;
     opacity: 0.9;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1px 1px black;
 }
 .table-nonveg{
     width: 100%;
     background: url('./roll1.jpg') no-repeat center center/cover;
     color: #FFD700;
     opacity: 0.9;
-    text-shadow: 1.5px 1.5px black;
+    text-shadow: 1px 1px black;
 }
 .highlight{
     font-size: 21px;
@@ -185,6 +185,14 @@ table tr{
     }
     .highlight{
         font-size: 18px;
+    }
+    .table-veg{
+        text-shadow: 3px 3px black;
+        opacity: 0.8;
+    }
+    .table-nonveg{
+        text-shadow: 3px 3px black;
+        opacity: 0.8;
     }
 }
 
